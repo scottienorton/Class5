@@ -1,0 +1,116 @@
+body {background-color: #6354d4;}
+
+div {display:inline-table;}
+
+div.title {
+vertical-align: top;
+position:absolute;
+display: inline;
+background-color: #9f97d9;
+width:125px;
+height:420px;
+margin-top:0;
+margin-right:auto;
+margin-bottom: 0;
+padding-left:10px;
+padding-right:auto;
+padding-top:10%;
+margin-left:20%;
+margin-right:auto;
+text-align:center;}
+
+div.mainpic {position:absolute;
+    display:inline;
+    margin-top:5%;
+    color:white;
+    padding:20px;
+    margin-right:8%;
+    text-align:left;
+    opacity:100%}
+
+    div.info1 {position:absolute;
+        display: inline;
+        color:white;
+        font-family:sans-serif;
+        width:auto;
+       padding-right:8%;
+       padding-left:8%;
+        margin-bottom:0;
+        margin-top:6%;
+        margin-right:3%;
+        margin-left:30%;
+        height:496px;
+        text-align:center;
+        background-color: #413698;
+        opacity:100%}
+        
+
+        div.infoleft {
+            list-style-position: inside;
+            display: inline-block;
+            vertical-align: middle;
+            color:white;
+            font-family:sans-serif;
+            padding:auto;
+            margin-bottom:20px;
+            margin-top:0;
+            margin-right:10%;
+            margin-left:5%;
+            height:400px;
+            width:1000px;
+            text-align:center;
+            background-color: #413698;
+            opacity:100%}
+        
+div.picright {display:inline-flexbox;
+            position:static;
+        text-align: right;
+        margin-top:35%;
+    margin-right:10%;}
+
+div.picleft {display:inline-block;
+    text-align: left;
+    margin-top:20px;
+margin-left:10%;}
+
+
+div.inforight {
+                display: inline-block;
+                color:white;
+                font-family:sans-serif;
+                padding:10%;
+                margin-bottom:10%;
+                margin-top:20px;
+                margin-right:1%;
+                margin-left:20%;
+                height:auto;
+                text-align:center;
+                background-color: #413698;
+                float:right;}
+
+
+
+                
+div.header {
+    list-style-position:inside;
+    position:fixed;
+    color:white;
+    width:100%;
+    padding:20px;
+    margin-top:0;
+    margin-left:0;
+    margin-right:0;
+    height:auto;
+    text-align:center;
+    padding-left:20%;
+    background-color: #413698;
+}
+
+    a:link {text-decoration:none;
+    font-family:sans-serif;
+    padding-left:30px;
+    padding-right:30px;}
+    a:link {color: #fffc00;}
+    a:visited {color: #f5db00}
+    a:hover {color: #fcffe4}
+    a:active {color: #C0F0FC}
