@@ -124,7 +124,7 @@ div.mainpic {list-style-position: inside;
             opacity:100%;
             text-shadow:2px 2px 2px #282068;}
         
-div.picright {
+.picright {
     list-style-position: inside;
             position:static;
 
@@ -132,27 +132,41 @@ div.picright {
     margin-right:10%;
     margin-left:5%;}
 
-div.picleft {    list-style-position: inside;
+.picleft {    list-style-position: inside;
     position:static;
 float:left;
-margin-right:5%;
 margin-left:10%;
 }
 
-div.inforight {
-    list-style-position: inside;
+.tooltiptext {
     position:static;
-    vertical-align: middle;
+    visibility: hidden;
+    background-color: white;
+    color:darkblue;
+    text-align: center;
+    padding:5px;
+    top:20px;
+left:-400px;}
+
+.picleft:hover .tooltiptext {
+        visibility: visible;
+      }    
+
+.picright:hover .tooltiptext {
+        visibility: visible;
+      }    
+
+.inforight {
+    position:static;
     color:white;
-    padding:auto;
     margin-bottom:20px;
     margin-right:5%;
     height:400px;
-    width:50%;
     text-align:center;
+    width:50%;
     background-color: rgba(65,54,152,.97);
-    float:right;
-    text-shadow:2px 2px 2px #282068;}
+    text-shadow:2px 2px 2px #282068;
+float:right;}
 
 
     a:link {text-decoration:none;
