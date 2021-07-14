@@ -4,7 +4,8 @@ body {background-color: #6354d4;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-  font-family:"Roboto"}
+  font-family:"Roboto";
+line-height:1.5;}
 
   h1{font-family: "LemonMilk";
 text-shadow:5px 5px 5px black}
